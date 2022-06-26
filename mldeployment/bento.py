@@ -14,4 +14,4 @@ def load_model_and_save_it_to_bento(model_file: Path) -> None:
 
 
 if __name__ == "__main__":
-    load_model_and_save_it_to_bento(Path("trained_model"))
+    load_model_and_save_it_to_bento(Path("model"))

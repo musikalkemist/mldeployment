@@ -129,7 +129,7 @@ def main():
         model, train_images, train_labels, test_images, test_labels, NUM_EPOCHS
     )
 
-    save_model(model, Path("trained_model"))
+    save_model(model, Path("model"))
 
 
 if __name__ == "__main__":
