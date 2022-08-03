@@ -1,4 +1,4 @@
-service: "service:mnist_service"  # Same as the argument passed to `bentoml
+service: "service:mnist_service"  # Same as the argument passed to bentoml
 labels:
   owner: Valerio
   stage: dev

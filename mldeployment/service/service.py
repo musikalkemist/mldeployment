@@ -6,8 +6,10 @@ import numpy as np
 import bentoml
 from bentoml.io import NumpyNdarray
 
+BENTO_MODEL_TAG = "keras_model:xnrcktalj2nplcoq"
 
-classifier_runner = bentoml.keras.get("keras_model:ko7zi6xt3cn4caku").to_runner()
+
+classifier_runner = bentoml.keras.get(BENTO_MODEL_TAG).to_runner()
 
 mnist_service = bentoml.Service("mnist_classifier", runners=[classifier_runner])
 
